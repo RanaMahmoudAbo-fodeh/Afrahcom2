@@ -13,6 +13,8 @@ public class MainActivity extends Activity {
     Button btn1,btn2,btn3,btn4,btn5,btn6;
 
     TextView t1;
+    TextView t2;
+
     Intent i;
 
 
