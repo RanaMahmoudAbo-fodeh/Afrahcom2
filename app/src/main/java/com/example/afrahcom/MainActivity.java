@@ -7,11 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
     Button btn1,btn2,btn3,btn4,btn5,btn6;
 
-
+    TextView t1;
     Intent i;
 
 
