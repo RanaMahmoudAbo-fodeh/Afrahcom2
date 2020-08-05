@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067970104399",
+    "firebase_url": "https://afrahcom-7d466.firebaseio.com",
+    "project_id": "afrahcom-7d466",
+    "storage_bucket": "afrahcom-7d466.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067970104399:android:9464c143e1a657367bae3a",
+        "android_client_info": {
+          "package_name": "com.example.afrahcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067970104399-kcn2v4nu5qdgjosjt5phdse01jubp13g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.afrahcom",
+            "certificate_hash": "34bc94c5be0c1e57af4119b041c7693c60de0f59"
+          }
+        },
+        {
+          "client_id": "1067970104399-2g1uo5npa064gikkmkhd1ej5huih83kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxIe1JOKDRzOJB0OBEYUfbjiSSBzIc5AE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067970104399-2g1uo5npa064gikkmkhd1ej5huih83kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
