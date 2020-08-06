@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 
     TextView t1;
     TextView t2;
-    TextView t2;
+    TextView t3;
 
     Intent i;
 
