@@ -3,81 +3,48 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
+    android:background="@drawable/enter"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <SearchView
-        android:id="@+id/search"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="15dp"/>
-    <LinearLayout
-        android:id="@+id/var1"
-        android:layout_below="@id/search"
+    <TextView
+        android:id="@+id/welcom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <LinearLayout
-            android:layout_marginStart="7dp"
-            android:id="@+id/var2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_below="@+id/search"
-
-            android:layout_marginLeft="7dp">
-
-
-            <Button
-                android:id="@+id/img11"
-                android:layout_width="200dp"
-                android:layout_height="210dp"
-                android:layout_marginTop="33dp"
-                android:layout_below="@id/search"
-               android:background="@drawable/ic_launcher_background"/>
-            <Button
-                android:id="@+id/img12"
-                android:layout_width="200dp"
-                android:layout_height="210dp"
-               android:background="@drawable/ic_launcher_foreground" />
-            <Button
-                android:id="@+id/img13"
-                android:layout_width="200dp"
-                android:layout_height="210dp"
-                android:background="@drawable/ic_launcher_background" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/var3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_below="@+id/search"
-            >
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Welcom In Afrahcom"
+        android:textSize="30dp"
+        android:textColor="#151212"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp" />
+    <Button
+        android:id="@+id/providerButt"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/welcom"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#FAFAFA"
+        android:text="Provider"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/visitorButt"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/providerButt"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#FAFAFA"
+        android:text="Visitor"
+        android:textSize="20dp"/>
 
 
-            <Button
-                android:id="@+id/img21"
-                android:layout_width="200dp"
-                android:layout_height="210dp"
-                android:layout_marginTop="33dp"
-                android:layout_below="@id/search"
-               android:background="@drawable/ic_launcher_foreground" />
-            <Button
-                android:id="@+id/img22"
-                android:layout_width="200dp"
-                android:layout_height="210dp"
-                android:background="@drawable/ic_launcher_background" />
-            <Button
-                android:id="@+id/img23"
-                android:layout_width="200dp"
-                android:layout_height="210dp"
-                android:background="@drawable/ic_launcher_foreground" />
-        </LinearLayout>
-    </LinearLayout>
 
 </RelativeLayout>
