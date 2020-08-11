@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 //                i=new Intent(MainActivity.this, FirstFragment.class)  ;
 //                startActivity(i);
 
-                Toast.makeText(MainActivity.this, "0000", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "000000", Toast.LENGTH_SHORT).show();
             }
         });
 
